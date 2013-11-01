@@ -21,6 +21,7 @@
 		D71D92D9182348A1007E92C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71D92BB182348A0007E92C2 /* UIKit.framework */; };
 		D71D92E1182348A1007E92C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D71D92DF182348A1007E92C2 /* InfoPlist.strings */; };
 		D71D92E3182348A1007E92C2 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D71D92E2182348A1007E92C2 /* TestTests.m */; };
+		D71D92EE18234D23007E92C2 /* newfile.m in Sources */ = {isa = PBXBuildFile; fileRef = D71D92ED18234D23007E92C2 /* newfile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D71D92DE182348A1007E92C2 /* TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestTests-Info.plist"; sourceTree = "<group>"; };
 		D71D92E0182348A1007E92C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D71D92E2182348A1007E92C2 /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
+		D71D92EC18234D23007E92C2 /* newfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newfile.h; sourceTree = "<group>"; };
+		D71D92ED18234D23007E92C2 /* newfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newfile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				D71D92CD182348A0007E92C2 /* ViewController.m */,
 				D71D92CF182348A0007E92C2 /* Images.xcassets */,
 				D71D92BE182348A0007E92C2 /* Supporting Files */,
+				D71D92EC18234D23007E92C2 /* newfile.h */,
+				D71D92ED18234D23007E92C2 /* newfile.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			files = (
 				D71D92CE182348A0007E92C2 /* ViewController.m in Sources */,
 				D71D92C8182348A0007E92C2 /* AppDelegate.m in Sources */,
+				D71D92EE18234D23007E92C2 /* newfile.m in Sources */,
 				D71D92C4182348A0007E92C2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
