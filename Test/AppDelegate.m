@@ -14,6 +14,8 @@
 {
     // Override point for customization after application launch.
     //dummy comments
+    //branch1 remote comment
+    //branch1 locale comment
     return YES;
 }
 							
