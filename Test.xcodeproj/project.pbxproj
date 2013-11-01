@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-/* update project file */
 		D71D92B8182348A0007E92C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71D92B7182348A0007E92C2 /* Foundation.framework */; };
 		D71D92BA182348A0007E92C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71D92B9182348A0007E92C2 /* CoreGraphics.framework */; };
 		D71D92BC182348A0007E92C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71D92BB182348A0007E92C2 /* UIKit.framework */; };
@@ -23,6 +22,7 @@
 		D71D92E1182348A1007E92C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D71D92DF182348A1007E92C2 /* InfoPlist.strings */; };
 		D71D92E3182348A1007E92C2 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D71D92E2182348A1007E92C2 /* TestTests.m */; };
 		D71D92EE18234D23007E92C2 /* newfile.m in Sources */ = {isa = PBXBuildFile; fileRef = D71D92ED18234D23007E92C2 /* newfile.m */; };
+		D71D92F418234F3A007E92C2 /* thirdfile.m in Sources */ = {isa = PBXBuildFile; fileRef = D71D92F318234F3A007E92C2 /* thirdfile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +57,8 @@
 		D71D92E2182348A1007E92C2 /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
 		D71D92EC18234D23007E92C2 /* newfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newfile.h; sourceTree = "<group>"; };
 		D71D92ED18234D23007E92C2 /* newfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newfile.m; sourceTree = "<group>"; };
+		D71D92F218234F3A007E92C2 /* thirdfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thirdfile.h; sourceTree = "<group>"; };
+		D71D92F318234F3A007E92C2 /* thirdfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = thirdfile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,8 @@
 				D71D92BE182348A0007E92C2 /* Supporting Files */,
 				D71D92EC18234D23007E92C2 /* newfile.h */,
 				D71D92ED18234D23007E92C2 /* newfile.m */,
+				D71D92F218234F3A007E92C2 /* thirdfile.h */,
+				D71D92F318234F3A007E92C2 /* thirdfile.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -255,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D71D92F418234F3A007E92C2 /* thirdfile.m in Sources */,
 				D71D92CE182348A0007E92C2 /* ViewController.m in Sources */,
 				D71D92C8182348A0007E92C2 /* AppDelegate.m in Sources */,
 				D71D92EE18234D23007E92C2 /* newfile.m in Sources */,
@@ -467,6 +472,7 @@
 				D71D92E8182348A1007E92C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D71D92E9182348A1007E92C2 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +481,7 @@
 				D71D92EB182348A1007E92C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
